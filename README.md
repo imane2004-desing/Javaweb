@@ -33,5 +33,5 @@ Utiliser AJAX pour mettre à jour en temps réel la disponibilité des médias s
 
 # 🧩 Diagramme de Classe
 
-![WhatsApp Image 2025-04-09 à 02 04 14_21f97ddb](https://github.com/user-attachments/assets/c7ed5cf6-f87c-4df4-a989-71de6b1eff45)
+![WhatsApp Image 2025-04-10 à 10 25 13_eba36fa8](https://github.com/user-attachments/assets/3cc2c0ce-25f4-4c48-b4f9-390dc9186d96)
 
