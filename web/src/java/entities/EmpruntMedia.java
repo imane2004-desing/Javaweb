@@ -1,71 +1,50 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package entities;
 
+import javax.persistence.*;
 import java.util.Date;
-import java.util.List;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.OneToMany;
-import javax.persistence.Table;
 
-@Entity 
+@Entity
 @Table(name = "empruntmedias")
 public class EmpruntMedia {
+
     @Id
-   @GeneratedValue(strategy = GenerationType.IDENTITY)
-       private int id;
-     @Column(name = "dateEmprunt")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
+
+    @Column(name = "dateEmprunt")
     private Date dateEmprunt;
+
     private Date dateRetour;
-    @OneToMany(mappedBy = "empruntMedia")
-    private List<TypeMedia> typemedias;
-    @OneToMany(mappedBy = "empruntMedia")
-    private List<Media> medias;
-    @OneToMany(mappedBy = "empruntMedia")
-    private List<User> users;
-    
 
-    public EmpruntMedia() {
-    }
+    @ManyToOne
+    @JoinColumn(name = "user_id")
+    private User user;
 
-    public int getId() {
-        return id;
-    }
+    @ManyToOne
+    @JoinColumn(name = "media_id")
+    private Media media;
 
-    public void setId(int id) {
-        this.id = id;
-    }
+   
 
-    public Date getDateEmprunt() {
-        return dateEmprunt;
-    }
+    // Getters & Setters
 
-    public void setDateEmprunt(Date dateEmprunt) {
-        this.dateEmprunt = dateEmprunt;
-    }
+    public int getId() { return id; }
 
-    public Date getDateRetour() {
-        return dateRetour;
-    }
+    public void setId(int id) { this.id = id; }
 
-    public void setDateRetour(Date dateRetour) {
-        this.dateRetour = dateRetour;
-    }
+    public Date getDateEmprunt() { return dateEmprunt; }
 
-    public void setMedia(Media media) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+    public void setDateEmprunt(Date dateEmprunt) { this.dateEmprunt = dateEmprunt; }
 
-    public void setUser(User user) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-    
-    
+    public Date getDateRetour() { return dateRetour; }
+
+    public void setDateRetour(Date dateRetour) { this.dateRetour = dateRetour; }
+
+    public User getUser() { return user; }
+
+    public void setUser(User user) { this.user = user; }
+
+    public Media getMedia() { return media; }
+
+    public void setMedia(Media media) { this.media = media; }
 }
