@@ -59,6 +59,11 @@ Base de Données
 
 MySQL : Système de gestion de base de données relationnelle.
 
+# 🗺️ Modèle Conceptuel de la Base 
+
+![WhatsApp Image 2025-04-11 à 14 21 50_69c5740a](https://github.com/user-attachments/assets/57a94133-6ba0-4aee-90b3-bc81d46b63da)
+
+
 
 # 🧩 Diagramme de Classe
 
