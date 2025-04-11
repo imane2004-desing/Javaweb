@@ -70,14 +70,13 @@ MySQL : Système de gestion de base de données relationnelle.
 ![WhatsApp Image 2025-04-10 à 10 25 13_eba36fa8](https://github.com/user-attachments/assets/3cc2c0ce-25f4-4c48-b4f9-390dc9186d96)
 
  # 🧪 Exécution des Tests dans la Console 
- 
- ![WhatsApp Image 2025-04-11 à 00 02 19_6efd9b98](https://github.com/user-attachments/assets/9e71d575-2945-4112-b889-4b8a032b54da)
- ![WhatsApp Image 2025-04-11 à 00 01 24_d88eb1bf](https://github.com/user-attachments/assets/9c41ca81-93bd-424a-a9c4-6762eb82fcf3)
- ![WhatsApp Image 2025-04-11 à 00 03 34_cf626511](https://github.com/user-attachments/assets/38ded45c-a450-45a6-8978-79033cf276f3)
- ![WhatsApp Image 2025-04-11 à 01 43 55_3855eab0](https://github.com/user-attachments/assets/6e32c255-53c6-4e9b-b74c-0050d624a46c)
- ![image](https://github.com/user-attachments/assets/6f97b904-5caf-4c48-8686-fd809eae8fdb)
- ![image](https://github.com/user-attachments/assets/73b09ecf-9bc5-40da-ad82-234891f206a9)
- ![image](https://github.com/user-attachments/assets/d2a7e591-5188-4f47-a162-e1e43e862141)
+![WhatsApp Image 2025-04-11 à 23 19 50_4919fde2](https://github.com/user-attachments/assets/1334b681-3dd7-47a9-8e74-213c130c82c3)
+![WhatsApp Image 2025-04-11 à 23 21 00_cf9d00dd](https://github.com/user-attachments/assets/b64ce721-db81-41f3-9011-444d44fefe4b)
+![WhatsApp Image 2025-04-11 à 23 22 55_207bdc46](https://github.com/user-attachments/assets/d1968f8f-d531-4510-9227-d456aa43910c)
+![WhatsApp Image 2025-04-11 à 23 24 06_87d71c81](https://github.com/user-attachments/assets/84819b87-0c36-4666-8a5a-21fa23c2c14d)
+
+
+
 
 
 
