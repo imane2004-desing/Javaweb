@@ -67,7 +67,8 @@ MySQL : Système de gestion de base de données relationnelle.
 
 # 🧩 Diagramme de Classe
 
-![WhatsApp Image 2025-04-10 à 10 25 13_eba36fa8](https://github.com/user-attachments/assets/3cc2c0ce-25f4-4c48-b4f9-390dc9186d96)
+![WhatsApp Image 2025-04-14 à 13 16 14_c4872f7c](https://github.com/user-attachments/assets/479ffa68-2510-4f00-9e4e-9083586e58ae)
+
 
  # 🧪 Exécution des Tests dans la Console 
 ![WhatsApp Image 2025-04-11 à 23 19 50_4919fde2](https://github.com/user-attachments/assets/1334b681-3dd7-47a9-8e74-213c130c82c3)
