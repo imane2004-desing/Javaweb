@@ -1,36 +1,29 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package entities;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+import org.hibernate.annotations.NamedQueries;
+import org.hibernate.annotations.NamedQuery;
 
-/**
- *
- * @author pc
- */
 @Entity
+@NamedQuery(name  ="findByEmail", query = "from User where email =:email")
 @Table(name = "users")
-@Inheritance(strategy = InheritanceType.JOINED)
-public abstract class User {
-
+public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id_user")
-    private Integer id;
-
-    @Column(name = "nom", nullable = false, length = 255)
+    private int id;
     private String nom;
-
-    @Column(name = "prenom", nullable = false, length = 255)
     private String prenom;
-
-    @Column(name = "email", nullable = false, unique = true, length = 255)
     private String email;
-
-    @Column(name = "motDePasse", nullable = false, length = 255)
     private String motDePasse;
-    @OneToMany(mappedBy = "user")
-       @ManyToOne
-    @JoinColumn(name = "typeId")
-    private EmpruntMedia empruntMedia;
 
     public User() {
     }
@@ -42,11 +35,11 @@ public abstract class User {
         this.motDePasse = motDePasse;
     }
 
-    public Integer getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -81,4 +74,6 @@ public abstract class User {
     public void setMotDePasse(String motDePasse) {
         this.motDePasse = motDePasse;
     }
+    
+    
 }
