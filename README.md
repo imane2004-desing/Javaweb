@@ -83,7 +83,7 @@ MySQL : Système de gestion de base de données relationnelle.
 
 
 # Page Inscription
-![WhatsApp Image 2025-04-18 à 17 36 39_1b3424f0](https://github.com/user-attachments/assets/9a1cd1c1-0c11-4323-a890-7db173c74eee)
+![WhatsApp Image 2025-04-18 à 18 14 31_d730c0a0](https://github.com/user-attachments/assets/f9c7428e-2431-4507-8c2e-ba803511d678)
 
 
 
