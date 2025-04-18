@@ -28,8 +28,8 @@ public class Test1 {
         MediaDao mediaDao = new MediaDao();
         
         /*
-        userDao.create(new User("Abl", "Amine", "amine@gmail.com", "amine123"));
-        userDao.create(new User("Abl", "Anas", "anas@gmail.com", "anas123"));
+        userDao.create(new User("Ali", "Amal", "amal@gmail.com", "amal123"));
+        userDao.create(new User("Elk", "Imane", "imane@gmail.com", "imane123"));
         
         typeMediaDao.create(new TypeMedia("Électronique"));
         typeMediaDao.create(new TypeMedia("Mécanique"));
@@ -41,7 +41,7 @@ public class Test1 {
         // Modification
         /*       
         User user = userDao.findById(2);
-        user.setNom("Aboulaiche");
+        user.setNom("Elkourari");
         userDao.update(user);
         
         TypeMedia typeMedia = typeMediaDao.findById(1);
